@@ -1,0 +1,49 @@
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-dark-mode {
+  background-color: #555;
+  color: white;
+}
+
+.interval-button {
+  background-color: #007bff;
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.button-group {
+  margin-bottom: 20px;
+}
+
+.container {
+  margin: 20px 0;
+}
+
+.doughnut-container, .bar-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.doughnut-chart, .bar-chart {
+  flex: 1 1 300px; /* Flex grow and shrink with a base size */
+  margin: 10px;
+}
